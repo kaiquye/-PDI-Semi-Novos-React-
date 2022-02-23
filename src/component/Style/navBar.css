@@ -1,0 +1,122 @@
+@media (min-width: 700px){
+    .MenuList{
+        display: none;
+        opacity: 0;
+        background-color: #37FF63;
+    }
+}
+.navBar{    
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    position: static;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003566;
+
+    color: #ffd60a;
+
+    box-shadow: rgb(95, 93, 93) 1px 1px 1px 2px;
+}
+.logoNavBar{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.linksNavBar{
+    width: 550px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.listLink{
+    width: 580px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.listLink button{
+    padding: 8px;
+    color: white;
+    background: rgb(44, 153, 44);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 9px;
+    transition: all 0.5s;
+}
+.listLink button:hover{
+    background: rgb(114, 110, 110);
+    color: rgb(255, 255, 255);
+}
+.listLink .souAdm{
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.5s;
+}
+.listLink .souAdm:hover{
+    color: #ffffff;
+}
+.link{
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: white;
+    margin-left: 17px;
+}
+.link:hover{
+    color: #488F27;
+}
+.buttonMenu{
+    display: none;
+}
+@media (max-width: 700px){
+    .linksNavBar{
+        display: none;
+    
+    }
+    .buttonMenu{
+        display: flex;
+    }
+    .buttonMenu button{
+        background-color: #488F27;
+        border: none;
+        color: white;
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .navBar{
+        height: 150px;
+    }
+    .MenuList{
+        width: 90%;
+        height: 100%;
+        background-color: white;
+        border-left: solid 1px;
+    }
+    .link{
+        margin-left: 0px;
+        margin-right: 2px;
+        margin-top: 15px;
+        border-bottom: black solid 1px;
+    }
+    .linkContato{
+        width: 70px;
+        background-color: #488F27;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+}
+@media (min-width: 900px){
+    .navBar{
+        height: 100%;
+    }
+}

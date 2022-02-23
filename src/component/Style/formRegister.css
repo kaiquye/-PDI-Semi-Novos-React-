@@ -1,0 +1,54 @@
+.divFormRegister{
+    width: 100%;
+    height: 100%;
+}
+.formRegister{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.formRegister section{
+    height: 100%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.formRegister input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.btnCadastrar{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.btnCadastrar button{
+    margin: 5px;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    background-color:#0066009d;    
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.formRegister ::placeholder {
+    color: #4a4d4e;
+    font-size: 15px;
+}
+@media (max-width: 700px){
+    .formularioEdit{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

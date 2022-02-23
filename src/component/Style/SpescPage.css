@@ -1,0 +1,86 @@
+.Spesc{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 250px 250px 250px;
+    background-color: #ebebebb9;
+    box-shadow: rgb(131, 129, 129) 1px 1px 12px 3px;
+    width: 100%;
+}
+.Spesc img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+.melhoresVeiculos{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    box-shadow: rgba(155, 155, 160, 0.596) 1px 1px 5px 3px;
+}
+.melhoresVeiculos div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #011e53;
+}
+.kmBaixa{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    box-shadow: rgba(155, 155, 160, 0.596) 1px 1px 5px 3px;
+}
+.kmBaixa div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #011e53;
+}
+.melhoresPrecos{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 250px;
+}
+.melhoresPrecos div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: #488F27;
+}
+@media (max-width: 700px){
+    .Spesc{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .melhoresVeiculos{
+        width: 100%;
+       
+    }
+    .kmBaixa{
+        width: 100%;
+    }
+    .melhoresPrecos{
+        width: 100%;
+    }
+}

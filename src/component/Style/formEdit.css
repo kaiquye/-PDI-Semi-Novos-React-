@@ -1,0 +1,79 @@
+.divForm{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.formularioEdit{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.formularioEdit section {
+}
+.formularioEdit .buttonForm{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: flex-end;
+    justify-content: center;
+}
+.btnSalvaForm{
+    margin: 5px;
+    width: 200px;
+    font-size: 20px;
+    background-color:#006600da;    
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    cursor: pointer;
+}
+.btnCancelarFom{
+    margin: 5px;
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.formularioEdit div{
+}
+.formularioEdit label{
+    padding-top: 35px;
+    font-size: 25px;
+    width: 340px;
+    color: #003566;
+    padding-left: 5px;
+}
+.formularioEdit div{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.formularioEdit input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: black;
+}
+::placeholder {
+    color: #4a4d4e;
+    font-size: 20px;
+}
+@media (max-width: 700px){
+    .formularioEdit{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

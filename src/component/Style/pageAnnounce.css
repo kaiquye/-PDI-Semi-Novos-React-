@@ -1,0 +1,137 @@
+.pageAnnounce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.announceFist{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.infoAnnouncePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    background-color: #003566;
+    box-shadow: rgb(187, 187, 187) 10px 22px 20px 7px;
+    margin-left: 70px;
+}
+.infosVeiculos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    color: rgb(223, 215, 215); 
+}
+.infosVeiculos label{
+    padding-top: 35px;
+    font-size: 19px;
+    width: 340px;
+    color: #ffc400c2;
+    padding-left: 5px;
+    border-bottom: 2px black solid;
+}
+#isDisabled{
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    outline: 0; 
+    border: none;
+    font-size: 20px;
+    color: #ffc400;
+    transition: all 0.0s;
+}
+
+.infosVeiculos h2{
+    color: #ffc400;
+}
+.infoAnnouncePage .btn{
+    background-color:#2c6e49;
+    color: white;
+}
+.descricaodoveiculo{
+    display: flex;
+    flex-direction: column;
+}
+.infoAnnouncePage button{
+    cursor: pointer;
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #ffc400;
+    border: none;
+    color: #003566;
+}
+.sliderImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 660px;
+    height: 660px;
+    overflow:hidden;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+.slider{    
+    width: auto;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.slider p{
+    opacity: 0%;
+}
+.descriptionAnnounce{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: rgb(255, 255, 255);
+
+}
+.descriptionAnnounce div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.descriptionAnnounce div label{
+    color: #1e3952da;
+    font-size: 20px;
+    border-bottom: 1px #0c3d6b69 solid;
+}
+.descriptionAnnounce div h4{
+    font-family: 'Assistant', sans-serif;
+    color: #003566;
+    font-size: 28px;
+}
+@media (max-width: 700px){
+   
+    .announceFist{
+        flex-direction: column;
+    }
+    .infoAnnouncePage{
+        width: 100%;
+        height: 50%;
+        margin-left: 0px;
+    }
+    .infosVeiculos label{
+        font-size: 30px;
+    }
+    .sliderImgs{
+        width: 100%;
+        background-color: #003566;
+        padding-bottom: 90px;
+    }
+    .slider {
+        background-color: #003566;
+        width: 100%;
+    }
+}

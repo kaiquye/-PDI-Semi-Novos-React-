@@ -1,0 +1,20 @@
+.mainRegister{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px 50px auto;
+}
+.PreviwImage{
+    display: flex;
+    grid-column: auto;
+    grid-row: 1/2;
+}
+.uploadImage{
+    grid-row: 2/3;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.divForm{
+    grid-row: 3/4;
+    width: 100%;
+}
